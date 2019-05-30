@@ -24,7 +24,7 @@ public class Ingresar extends AppCompatActivity implements View.OnClickListener{
     private Button btnRegistrar;
     private Button btnIniciar;
     private ProgressDialog progressDialog;
-
+    private String correo;
 
     //Declaramos un objeto firebaseAuth
     private FirebaseAuth firebaseAuth;
@@ -38,16 +38,18 @@ public class Ingresar extends AppCompatActivity implements View.OnClickListener{
         firebaseAuth = FirebaseAuth.getInstance();
 
         //Referenciamos los views
-        TextEmail = (EditText) findViewById(R.id.TxtEmail);
-        TextPassword = (EditText) findViewById(R.id.TxtPassword);
+        TextEmail = findViewById(R.id.TxtEmail);
+        TextPassword = findViewById(R.id.TxtPassword);
 
-        btnRegistrar = (Button) findViewById(R.id.botonRegistrar);
+        btnRegistrar = findViewById(R.id.botonRegistrar);
         btnIniciar = findViewById(R.id.botonIniciar);
         progressDialog = new ProgressDialog(this);
 
-        //attaching listener to button
         btnRegistrar.setOnClickListener(this);
         btnIniciar.setOnClickListener(this);
+
+
+
     }
 
     private void registrarUsuario(){
@@ -125,7 +127,7 @@ public class Ingresar extends AppCompatActivity implements View.OnClickListener{
                             String user = email.substring(0, pos);
                             Toast.makeText(Ingresar.this, "Bienvenido: " + TextEmail.getText(), Toast.LENGTH_LONG).show();
                             Intent intencion = new Intent(getApplication(), MainActivity.class);
-                            //intencion.putExtra(WellcomeActivity.user, user);
+                            intencion.putExtra(MainActivity.correo, user);
                             startActivity(intencion);
 
 

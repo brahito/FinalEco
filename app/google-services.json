@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "594779297592-0lgcc48654pdmeaedh3cosgbtio57tq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finaleco",
+            "certificate_hash": "f9973da59a6e6b98f0dfd15e9dd476280c2a3a7a"
+          }
+        },
+        {
           "client_id": "594779297592-o3v1kt85s3serfspef61pvoovmrdj5qc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
