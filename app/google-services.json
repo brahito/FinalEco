@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "594779297592",
+    "firebase_url": "https://finaleco-3ce6b.firebaseio.com",
+    "project_id": "finaleco-3ce6b",
+    "storage_bucket": "finaleco-3ce6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594779297592:android:6b54549a1e2ab5df",
+        "android_client_info": {
+          "package_name": "com.example.finaleco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594779297592-o3v1kt85s3serfspef61pvoovmrdj5qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finaleco",
+            "certificate_hash": "7c375fc17b0fcfc7dc2c5177c367a86ac61ca479"
+          }
+        },
+        {
+          "client_id": "594779297592-46b46lf8e99b2lbb40lepcv6fibhtb1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1a8daifixHizrq5hUbosrXwkMLOn8r6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594779297592-46b46lf8e99b2lbb40lepcv6fibhtb1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
