@@ -2,6 +2,9 @@ package com.example.finaleco;
 
 public class Puntajes {
     private String claseid,usuario,puntos,correo;
+    public Puntajes(){
+
+    }
     public Puntajes( String usuario, String puntos) {
 
         this.usuario = usuario;
